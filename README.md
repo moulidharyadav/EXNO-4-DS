@@ -201,7 +201,6 @@ KNN_classifier.fit(train_x,train_y)
 prediction = KNN_classifier.predict(test_x)
 confusionMmatrix = confusion_matrix(test_y, prediction)
 print(confusionMmatrix)
-
 ```
 <img width="55" alt="image" src="https://github.com/KayyuruTharani/EXNO-4-DS/assets/142209319/2aae088f-279f-4f33-8137-b712dc580d9e">
 
